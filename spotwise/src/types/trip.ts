@@ -19,6 +19,6 @@ interface TripDay {
     dayData: DayData;
 }
 
-interface TripResponse {
+export interface TripResponse {
     days: TripDay[];
 }
