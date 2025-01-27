@@ -1,4 +1,4 @@
-interface PointOfInterest {
+export interface PointOfInterest {
     name: string;
     category: string;
     reviewCount: number;
@@ -14,7 +14,7 @@ interface DayData {
     totalTime: number;
 }
 
-interface TripDay {
+export interface TripDay {
     day: string;
     dayData: DayData;
 }
