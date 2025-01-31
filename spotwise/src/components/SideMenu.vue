@@ -2,7 +2,7 @@
   <div
       :class="[ 'h-full bg-gray-100 dark:bg-gray-700 transition-all duration-300 flex flex-col', isCollapsed ? 'w-10' : 'w-1/4 max-w-xs' ]"
   >
-    <button @click="toggleMenu" class="text-white flex justify-end p-4 cursor-pointer hover:bg-gray-600 transition-colors">
+    <button @click="toggleMenu" class="text-white flex justify-end p-3 cursor-pointer hover:bg-gray-600 transition-colors text-xl">
       ☰
     </button>
 
